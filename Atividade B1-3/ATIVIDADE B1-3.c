@@ -1,3 +1,18 @@
+#include <stdio.h>
+
+void ascendente(int notas[], int n) {
+    int i, j, temp;
+    for (i = 0; i < n; i++) {
+        for (j = 0; j < n; j++) {
+            if (notas[j] > notas[j+1]) {
+                temp = notas[j];
+                  notas[j] = notas[j+1];
+                  notas[j+1] = temp;
+            }
+        }
+    }
+}
+
 int ordenar(int *nota, int n) {
     int maior = *nota;
   
@@ -52,7 +67,8 @@ int main(void) {
   
     int soma_notas = somar(nota, 5);
     printf("A soma das notas é: %i\n", soma_notas);
-  
+
+    ascendente(nota, 5);
     printf("Notas: ");
       for (int i = 0; i < 5; i++) {
         printf("%d ", notas[i]);
