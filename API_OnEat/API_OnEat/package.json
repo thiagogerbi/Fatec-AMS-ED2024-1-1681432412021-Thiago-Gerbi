@@ -1,0 +1,14 @@
+{
+    "name": "api-projeto-delivery",
+    "version": "1.0.0",
+    "description": "API OnEat",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^5.11.15"
+    }
+  }
+  

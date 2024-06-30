@@ -1,0 +1,31 @@
+# Projeto OnEat
+
+## Instalação
+1. Execute `npm install` para instalar todas as dependências.
+2. Configure a conexão com o MongoDB no arquivo `server.js`.
+3. Execute `npm start` para iniciar o servidor.
+
+## Estrutura de Diretórios
+- `/modelos`: Contém os modelos Mongoose.
+- `/rotas`: Contém as definições de rotas.
+- `/controladores`: Contém os controladores de lógica de negócio.
+- `/middlewares`: Contém middlewares utilizados no projeto.
+
+## Endpoints
+- `GET /restaurantes`: Obter todos os restaurantes.
+- `GET /restaurantes/:id`: Obter um restaurante por ID.
+- `POST /restaurantes`: Criar um novo restaurante.
+- `PUT /restaurantes/:id`: Atualizar um restaurante por ID.
+- `DELETE /restaurantes/:id`: Excluir um restaurante por ID.
+
+- `GET /itensMenu`: Obter todos os itens de menu.
+- `GET /itensMenu/:id`: Obter um item de menu por ID.
+- `POST /itensMenu`: Criar um novo item de menu.
+- `PUT /itensMenu/:id`: Atualizar um item de menu por ID.
+- `DELETE /itensMenu/:id`: Excluir um item de menu por ID.
+
+- `GET /pedidos`: Obter todos os pedidos.
+- `GET /pedidos/:id`: Obter um pedido por ID.
+- `POST /pedidos`: Criar um novo pedido.
+- `PUT /pedidos/:id`: Atualizar um pedido por ID.
+- `DELETE /pedidos/:id`: Excluir um pedido por ID.
